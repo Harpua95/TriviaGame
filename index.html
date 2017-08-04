@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Trivia Game</title>
+
+		<!-- Link in CSS Files -->
+		<link rel="stylesheet" type="text/css" href="assets/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+	</head>
+	<body>
+
+		<!-- Start of the game -->
+		<div id = start_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Would you like to play a game?</h1>
+
+			<button id = start_button>Start</button>
+		</div>
+
+
+		<!-- During Gameplay Container -->
+	<div id = mid_game_container>
+			<!-- Static Game Logo -->
+		<h1 class = "logo">Hello, My Name is Inigo Montoya</h1>
+
+			
+		<h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+
+			
+	
+		<h1>What is the last game played in WarGames?</h1>
+		<input type="radio" name="q1" value="Checkers">Checkers
+		<input type="radio" name="q1" value="Chess">Chess
+		<input type="radio" name="q1" value="Tic-Tac-Toe">Tic Tac Toe
+		<input type="radio" name="q1" value="Pong">Pong
+
+		<h1>Who was Mavericks Co-pilot?</h1>
+		<input type="radio" name="q2" value="Goose">Goose
+		<input type="radio" name="q2" value="Hollywood">Hollywood
+		<input type="radio" name="q2" value="Iceman">Iceman
+		<input type="radio" name="q2" value="Cougar">Cougar
+
+		<h1>Who was not in The Breakfast Club?</h1>
+		<input type="radio" name="q3" value="Emilio-Estevez">Emilio Estevez
+		<input type="radio" name="q3" value="Judd-Nelson">Judd Nelson
+		<input type="radio" name="q3" value="Demi-Moore">Demi Moore
+		<input type="radio" name="q3" value="Ally Sheedy">Ally Sheedy
+
+		<h1>In Spaceballs, where did the Schwartz originate?</h1>
+		<input type="radio" name="q4" value="This-was-never-explained">This was never explained
+		<input type="radio" name="q4" value="Decendants-of-Pizza-the-Hut">Decendants of Pizza the Hut
+		<input type="radio" name="q4" value="an Asteroid">An Asteroid
+		<input type="radio" name="q4" value="Found-in-a-Cracker-Jack-box">Found in a Cracker Jack Box
+
+		<h1>What sports jersey does Cameron wear in the Chicago based film 'Ferris Buellers Day Off'?</h1>
+		<input type="radio" name="q5" value="Michael-Jordan">Michael Jordan
+		<input type="radio" name="q5" value="Ernie-Banks">Ernie Banks
+		<input type="radio" name="q5" value="Gordie-Howe">Gordie Howe
+		<input type="radio" name="q5" value="Jim-McMahon">Jim McMahon
+
+		<h1>What is Reds nationality/ancestry in Shawshank Redemption?</h1>   
+		<input type="radio" name="q6" value="Irish">Irish
+		<input type="radio" name="q6" value="German">German 
+		<input type="radio" name="q6" value="Native-American">Native American
+		<input type="radio" name="q6" value="English">English
+
+		<h1>Who is Inigo Montoya primarily looking for?</h1>
+		<input type="radio" name="q7" value="The-Princess">The Princess
+		<input type="radio" name="q7" value="A Man with six fingers on his right hand">A Man with six fingers on his right hand
+		<input type="radio" name="q7" value="Dred-Pirate-Roberts">Dred Pirate Roberts
+		<input type="radio" name="q7" value="treasure-chest">Treasue Chest
+
+		<h1>In the Sandlot, what is the dogs actual name?</h1>
+		<input type="radio" name="q8" value="Rascal">Rascal
+		<input type="radio" name="q8" value="Babe-Ruth">Babe Ruth
+		<input type="radio" name="q8" value="Beast">Beast
+		<input type="radio" name="q8" value="Hercules">Hercules
+
+		<h1>What famous person does Bill Murray caddy for in Caddyshack?</h1>
+		<input type="radio" name="q9" value="The-President-of-the-US">The President of the USA
+		<input type="radio" name="q9" value="Arnold-Palmer">Arnold Palmer
+		<input type="radio" name="q9" value="The-Dalai-Lama">The Dalai Lama
+		<input type="radio" name="q9" value="Bo-Derek">Bo Derek
+
+		<h1>Who does not have a charatcer in Ghostbusters</h1>
+		<input type="radio" name="q10" value="Chevy-Chase">Chevy Chase
+		<input type="radio" name="q10" value="Dan-Ackroyd">Dan Ackroyd
+		<input type="radio" name="q10" value="Bill-Murray">Bill Murray
+		<input type="radio" name="q10" value="Harold Ramis">Harold Ramis 
+		<br>
+	</div>
+
+
+		<br>
+		<div>
+		<button id = done_button>Done!</button>
+		</div>
+		<!-- End of the game -->
+		<div id = end_container>
+			
+			<h1 class = "logo">Who you gonna call!</h1>
+
+			<!-- <h1 id = "done">All Done!</h1> -->
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="assets/app.js"></script>
+		
+	</body>
+</html>
+
